@@ -1,0 +1,110 @@
+/* main */
+body {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #121212;
+    padding: auto;
+    margin: auto;
+    border: auto;
+ }
+ 
+ a {
+    text-decoration-line:none;          
+    color: white;
+ }
+ 
+ header {
+    background-color: rgb(54, 54, 54);    
+ }
+ 
+ header, .collection {
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ header, a {
+    padding-top: 6px;
+    padding-bottom: 6px;
+ }
+ 
+ .collection {
+    padding-left: 8in;
+ }
+ 
+ .a5 {
+    padding: 13px;  
+    transition: all 0.3s ease;
+ }
+ 
+ .a5:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+ }
+ 
+ .a1 {
+    padding: 10px;
+    transition: all 0.3s ease;
+ }
+ 
+ .a1:hover {
+    transform: scale(1.2);
+    color: rgba(244, 244, 142, 0.384);
+ }
+ 
+ .footer {
+    background-color: #424141;
+    padding: 20px;
+ }
+ footer {
+    background-color: #424141;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+ }
+ footer h1 {
+    padding: 1px;
+    margin: 5px;
+    padding-bottom: 3px;
+ }
+ 
+ footer {
+    padding-bottom: 6px;
+ }
+ 
+ .spa {
+    padding-bottom: 100%;
+ }
+ 
+
+
+ /* phone */
+ /* Media Queries for different screen sizes */
+ 
+ @media only screen and (max-width: 768px) {
+    /* For tablets and mobile screens */
+    .collection {
+       flex-direction: column;
+       align-items: center;
+    }
+    .a5, .a1 {
+       width: 100%;
+       text-align: center;
+    }
+ }
+ 
+ @media only screen and (max-width: 480px) {
+    /* For smaller mobile screens */
+    body {
+       font-size: 14px;
+    }
+    header, .collection {
+       flex-direction: column;
+       align-items: center;
+    }
+    .a5, .a1 {
+       padding: 10px;
+    }
+ }
