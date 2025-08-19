@@ -123,6 +123,8 @@ footer {
   transition: background 0.3s ease, color 0.3s ease;
   margin: 20px auto;
   display: block;
+  position: fixed;
+  right: 3px;
 }
 
 .open-btn:hover {
@@ -188,6 +190,31 @@ dialog::backdrop {
   cursor: pointer;
   transition: background 0.3s ease;
 }
+
+/* Scroll To Up */
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    background-color: #3f3f3f;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease;
+  }
+  
+  #scrollToTopBtn:hover {
+    background-color: #646464;
+  }
+  
+  #scrollToTopBtn:active {
+    transform: scale(0.9);
+  }
 
 .close-btn:hover {
   background-color: darkred;
