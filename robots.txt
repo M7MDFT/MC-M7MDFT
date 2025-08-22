@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /private/
-Disallow: /scripts/
-Sitemap
-Sitemap: https://m7mdft00.github.io/MCM7MDFT/sitemap.xml
