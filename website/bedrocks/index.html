@@ -1,68 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar" dir="auto">
 <head>
-  <link rel="shortcut icon" href="tab.webp" type="image/x-icon">
-  <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bedrock</title>    
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>MCPEDFT | Bedrock</title>
+  <link rel="shortcut icon" href="images/tab.webp" type="image/webp" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header>
-    <a class="a1" href="index.html">
-      Bedrock
-    </a>
-    <div class="space">
-      <br>
-    </div>
-  </header>
+  <div class="page-wrapper">
 
-   <!-- زر فتح الـ Dialog -->
-      <button class="open-btn" onclick="document.getElementById('myModal').showModal()">SM</button>
+    <header>
+      <a class="a1" href="../../index.html">MCPEDFT</a>
+      <a class="a1" href="index.html">Bedrock</a>
+    </header>
 
-      <!-- نافذة الـ Dialog -->
+    <button class="open-btn" type="button" onclick="document.getElementById('myModal').showModal()">SM</button>
+
       <dialog class="dialog-style" id="myModal">
-        <div class="dialog-content">
-          <h3>SM/Support & content</h3>
-          <a href="https://www.instagram.com/m7mdft00/" target="_blank">Instagram</a><br />
-          <a href="https://m.youtube.com/@m7mdft" target="_blank">YouTube (M7MDFT)</a><br />
-          <a href="https://m.youtube.com/@m7mdft0" target="_blank">YouTube (M7MDFT-Randomly)</a><br />
-          <a href="https://m.twitch.tv/m7mdft_00/home" target="_blank">Twitch</a><br />
-          <button class="close-btn" onclick="document.getElementById('myModal').close()">Close</button>
-        </div>
-      </dialog>
+      <div class="dialog-content">
+        <h3>Social media (SM) | Support & Content </h3>
 
-   <div class="category-container">
-  <a href="website addon/index.html" class="category-card">
-    <img src="Addons.avif" alt="Addon" />
-    <h3>Addon</h3>
-  </a>
-  <a href="website map/index.html" class="category-card">
-    <img src="Maps.avif" alt="Map" />
-    <h3>Map</h3>
-  </a>
-  <a href="website Resouce pack/index.html" class="category-card">
-    <img src="RS.avif" alt="Resource Pack" />
-    <h3>Resource Pack (RP)</h3>
-  </a>
-  <a href="website worlds/index.html" class="category-card">
-    <img src="World.avif" alt="My Worlds" />
-    <h3>My Worlds</h3>
-  </a>
-</div>
+              <a href="https://linktr.ee/M7MDFT" target="_blank" rel="noopener noreferrer">Link Tree</a> <br> <br>
 
-  <footer>
-    <center>
-      <h1>
-        © Copyright 2025 - 2030
-      </h1>
-    </center>
+        <button class="close-btn" type="button" onclick="document.getElementById('myModal').close()">
+          Close
+        </button>
+      </div>
+    </dialog>
+
+    <main class="main-content">
+
+      <section class="category-container" aria-label="Bedrock Categories">
+        <a href="websites/website addon/index.html" class="category-card">
+          <img src="images/Addons.avif" alt="Bedrock Addons" loading="lazy" />
+          <h3>Addons</h3>
+        </a>
+
+        <a href="websites/website map/index.html" class="category-card">
+          <img src="images/Maps.avif" alt="Bedrock Maps" loading="lazy" />
+          <h3>Maps</h3>
+        </a>
+
+        <a href="websites/website Resource pack/index.html" class="category-card">
+          <img src="images/RS.avif" alt="Bedrock Resource Packs" loading="lazy" />
+          <h3>Resource Packs (RP)</h3>
+        </a>
+
+        <a href="websites/website worlds/index.html" class="category-card">
+          <img src="images/World.avif" alt="Bedrock Worlds" loading="lazy" />
+          <h3>My Worlds</h3>
+        </a>
+      </section>
+    </main>
+
+    <button id="scrollToTopBtn" title="Scroll to top" aria-label="Scroll to top">^</button>
+
+    <footer>
+      <h2>© Copyright 2025 - 2030</h2>
+       <p>MCPEDFT by M7MDFT</p>
     </footer>
 
-            <button id="scrollToTopBtn" title="Scroll to up">
-            ^
-        </button>
+  </div>
 
-    <script src="script.js"></script>
-</body>   
+  <script src="script.js"></script>
+</body>
 </html>
