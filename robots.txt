@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://m7mdft.github.io/MC-M7MDFT/sitemap.xml
-Sitemap: https://www.m7mdft.github.io/MC-M7MDFT/sitemap.xml
