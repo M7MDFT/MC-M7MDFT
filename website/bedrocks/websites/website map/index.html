@@ -1,60 +1,51 @@
 <!DOCTYPE html>
-<html lang="ar" dir="auto">
+<html>
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>MCPEDFT | Maps</title>
-  <link rel="shortcut icon" href="tab.webp" type="image/webp" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="tab.webp" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="view port" content="width=device-width,initial-scale+1.0">
+  <title>Map</title>    
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <div class="page-wrapper">
+  <header>
+    <a class="a1" href="index.html">
+      Map
+    </a>
+  </header>
+   
+        <!-- زر فتح الـ Dialog -->
+      <button class="open-btn" onclick="document.getElementById('myModal').showModal()">SM</button>
 
-    <header>
-      <a class="a1" href="../index.html">Bedrock</a>
-      <a class="a1" href="index.html">Maps</a>
-    </header>
+      <!-- نافذة الـ Dialog -->
+      <dialog class="dialog-style" id="myModal">
+        <div class="dialog-content">
+          <h3>SM/Support & content</h3>
+          <a href="https://www.instagram.com/m7mdft00/" target="_blank">Instagram</a><br />
+          <a href="https://m.youtube.com/@m7mdft" target="_blank">YouTube (M7MDFT)</a><br />
+          <a href="https://m.youtube.com/@m7mdft0" target="_blank">YouTube (M7MDFT-Randomly)</a><br />
+          <a href="https://m.twitch.tv/m7mdft_00/home" target="_blank">Twitch</a><br />
+          <button class="close-btn" onclick="document.getElementById('myModal').close()">Close</button>
+        </div>
+      </dialog>
+    
+      <h1>
+      Soon ...
+    </h1>
 
-    <button class="open-btn" type="button" onclick="document.getElementById('myModal').showModal()">SM</button>
-
-     <dialog class="dialog-style" id="myModal">
-      <div class="dialog-content">
-        <h3>Social media (SM) | Support & Content </h3>
-
-              <a href="https://linktr.ee/M7MDFT" target="_blank" rel="noopener noreferrer">Link Tree</a> <br> <br>
-
-        <button class="close-btn" type="button" onclick="document.getElementById('myModal').close()">
-          Close
-        </button>
-      </div>
-    </dialog>
-
-    <main class="main-content">
-      <section class="maps-grid" aria-label="Minecraft Maps">
-
-        <article class="map-card">
-          <img src="map-placeholder.avif" alt="Coming soon map" loading="lazy" />
-          <div class="map-info">
-            <h2>Soon...</h2>
-            <p>Maps will be added here later.</p>
-            <span class="map-status">Coming Soon</span>
-          </div>
-        </article>
-
-      </section>
-    </main>
-
-    <button id="scrollToTopBtn" title="Scroll to top" aria-label="Scroll to top">^</button>
-
-    <footer>
-      <h2>© Copyright 2025 - 2030</h2>
-      <p>MCPEDFT by M7MDFT</p>
+  <footer>
+    <center>
+      <h1>
+        © Copyright 2025 - 2030
+      </h1>
+    </center>
     </footer>
 
-  </div>
+    <button id="scrollToTopBtn" title="Scroll to up">
+            ^
+        </button>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+
+</body>   
 </html>
