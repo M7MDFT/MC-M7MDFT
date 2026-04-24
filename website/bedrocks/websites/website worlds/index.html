@@ -1,49 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar" dir="auto">
 <head>
-  <link rel="shortcut icon" href="tab.webp" type="image/x-icon">
-  <meta charset="utf-8">
-  <meta name="view port" content="width=device-width,initial-scale+1.0">
-  <title>My World</title>    
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>MCPEDFT | My Worlds</title>
+  <link rel="shortcut icon" href="tab.webp" type="image/webp" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header>
-    <a class="a1" href="index.html">
-      My world
-    </a>
-  </header> 
-       <!-- زر فتح الـ Dialog -->
-      <button class="open-btn" onclick="document.getElementById('myModal').showModal()">SM</button>
+  <div class="page-wrapper">
 
-      <!-- نافذة الـ Dialog -->
-      <dialog class="dialog-style" id="myModal">
-        <div class="dialog-content">
-          <h3>SM/Support & content</h3>
-          <a href="https://www.instagram.com/m7mdft00/" target="_blank">Instagram</a><br />
-          <a href="https://m.youtube.com/@m7mdft" target="_blank">YouTube (M7MDFT)</a><br />
-          <a href="https://m.youtube.com/@m7mdft0" target="_blank">YouTube (M7MDFT-Randomly)</a><br />
-          <a href="https://m.twitch.tv/m7mdft_00/home" target="_blank">Twitch</a><br />
-          <button class="close-btn" onclick="document.getElementById('myModal').close()">Close</button>
-        </div>
-      </dialog>
-  <h1>
-    Soon...
-  </h1>
+    <header>
+      <a class="a1" href="../index.html">Bedrock</a>
+      <a class="a1" href="index.html">My Worlds</a>
+    </header>
 
- <footer>
-    <center>
-      <h1>
-        © Copyright 2025 - 2030
-      </h1>
-    </center>
+    <button class="open-btn" type="button" onclick="document.getElementById('myModal').showModal()">SM</button>
+
+    <dialog class="dialog-style" id="myModal">
+      <div class="dialog-content">
+        <h3>Social Media (SM) | Support & Content</h3>
+
+        <a href="https://linktr.ee/M7MDFT" target="_blank" rel="noopener noreferrer">Linktree</a>
+
+        <button class="close-btn" type="button" onclick="document.getElementById('myModal').close()">
+          Close
+        </button>
+      </div>
+    </dialog>
+
+    <main class="main-content">
+
+      <section class="worlds-grid" aria-label="My Minecraft Worlds">
+
+        <article class="world-card">
+          <img src="world-placeholder.avif" alt="Coming soon world" loading="lazy" />
+          <div class="world-info">
+            <h2>Soon...</h2>
+            <p>World content will be added here later.</p>
+            <span class="world-status">Coming Soon</span>
+          </div>
+        </article>
+
+      </section>
+    </main>
+
+    <button id="scrollToTopBtn" title="Scroll to top" aria-label="Scroll to top">^</button>
+
+    <footer>
+      <h2>© Copyright 2025 - 2030</h2>
+      <p>MCPEDFT by M7MDFT</p>
     </footer>
 
-            <button id="scrollToTopBtn" title="Scroll to up">
-            ^
-        </button>
+  </div>
 
-    <script src="script.js"></script>
-
-</body>   
+  <script src="script.js"></script>
+</body>
 </html>

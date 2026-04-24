@@ -1,68 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar" dir="auto">
 <head>
-  <link rel="shortcut icon" href="tab.webp" type="image/x-icon">
-  <meta charset="utf-8">
-  <meta name="view port" content="width=device-width,initial-scale+1.0">
-  <title>Resouce Pack</title>    
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <a class="a1" href="index.html">
-      Resouce Pack
-    </a>
-    <div class="space">
-      <br>
-    </div>
-  </header>
-        <!-- زر فتح الـ Dialog -->
-      <button class="open-btn" onclick="document.getElementById('myModal').showModal()">SM</button>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <!-- نافذة الـ Dialog -->
-      <dialog class="dialog-style" id="myModal">
-        <div class="dialog-content">
-          <h3>SM/Support & content</h3>
-          <a href="https://www.instagram.com/m7mdft00/" target="_blank">Instagram</a><br />
-          <a href="https://m.youtube.com/@m7mdft" target="_blank">YouTube (M7MDFT)</a><br />
-          <a href="https://m.youtube.com/@m7mdft0" target="_blank">YouTube (M7MDFT-Randomly)</a><br />
-          <a href="https://m.twitch.tv/m7mdft_00/home" target="_blank">Twitch</a><br />
-          <button class="close-btn" onclick="document.getElementById('myModal').close()">Close</button>
-        </div>
-      </dialog>
-  <br><br>
-<div class="collect">
-  <div class="File-RP">
- <a href="Folder/file/NOVP.mcaddon">
-  <div class="Img-RP">
-    <img src="Folder/img/NOVP.avif" alt="NOVP" width="200" height="auto">
-  </div>  
- </a>
- <div class="name">
-    <h1>No Vision Pumpkin (NOVP)</h1>
-    <a href="Folder/file/NOVP.mcaddon" class="Tr">
-      Download here
-    </a>
-    </div>
-</div>
-</div>
-<div class="spa">
-  
-</div>
-<br>
-  <footer>
-    <center>
-      <h1>
-        © Copyright 2025 - 2030
-      </h1>
-    </center>
+  <title>MCPEDFT | Resource Packs</title>
+  <link rel="shortcut icon" href="tab.webp" type="image/webp" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="page-wrapper">
+
+    <header>
+      <a class="a1" href="../index.html">Bedrock</a>
+      <a class="a1" href="index.html">Resource Packs</a>
+    </header>
+
+    <button class="open-btn" type="button" onclick="document.getElementById('myModal').showModal()">SM</button>
+
+    <dialog class="dialog-style" id="myModal">
+      <div class="dialog-content">
+        <h3>Social Media (SM) | Support & Content</h3>
+
+        <a href="https://linktr.ee/M7MDFT" target="_blank" rel="noopener noreferrer">Linktree</a>
+
+        <button class="close-btn" type="button" onclick="document.getElementById('myModal').close()">Close</button>
+      </div>
+    </dialog>
+
+    <main class="main-content">
+      <section class="hero">
+        <h1>Resource Packs</h1>
+        <p>
+          Minecraft Bedrock Resource Packs by M7MDFT.
+          <br />
+          حزم موارد Minecraft Bedrock من M7MDFT.
+        </p>
+      </section>
+
+      <section class="rp-grid" aria-label="Minecraft Resource Packs">
+
+        <article class="rp-card">
+          <a href="Folder/file/NOVP.mcaddon">
+            <img src="Folder/img/NOVP.avif" alt="No Vision Pumpkin NOVP" loading="lazy" />
+          </a>
+
+          <div class="rp-info">
+            <h2>No Vision Pumpkin (NOVP)</h2>
+            <p>Removes pumpkin vision overlay for a cleaner view.</p>
+
+            <a class="download-btn" href="Folder/file/NOVP.mcaddon" download>
+              Download
+            </a>
+          </div>
+        </article>
+
+      </section>
+    </main>
+
+    <button id="scrollToTopBtn" title="Scroll to top" aria-label="Scroll to top">^</button>
+
+    <footer>
+      <h2>© Copyright 2025 - 2030</h2>
+      <p>MCPEDFT by M7MDFT</p>
     </footer>
 
-    <button id="scrollToTopBtn" title="Scroll to up">
-            ^
-        </button>
+  </div>
 
-    <script src="script.js"></script>
-
-</body>   
+  <script src="script.js"></script>
+</body>
 </html>
