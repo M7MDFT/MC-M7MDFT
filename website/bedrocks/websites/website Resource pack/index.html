@@ -17,7 +17,7 @@
       <a class="a1" href="index.html">Resource Packs</a>
     </header>
 
-    <button class="open-btn" type="button" onclick="document.getElementById('myModal').showModal()">SM</button>
+    <button class="open-btn" onclick="document.getElementById('myModal').showModal()">SM</button>
 
     <dialog class="dialog-style" id="myModal">
       <div class="dialog-content">
@@ -25,11 +25,12 @@
 
         <a href="https://linktr.ee/M7MDFT" target="_blank" rel="noopener noreferrer">Linktree</a>
 
-        <button class="close-btn" type="button" onclick="document.getElementById('myModal').close()">Close</button>
+        <button class="close-btn" onclick="document.getElementById('myModal').close()">Close</button>
       </div>
     </dialog>
 
     <main class="main-content">
+
       <section class="hero">
         <h1>Resource Packs</h1>
         <p>
@@ -39,10 +40,12 @@
         </p>
       </section>
 
-      <section class="rp-grid" aria-label="Minecraft Resource Packs">
+      <section class="rp-grid">
 
         <article class="rp-card">
-          <a href="https://drive.google.com/uc?export=download&id=1TmCSOY-mGknb5Q-bxW0Wej74lZv_M_Fa">
+
+          <!-- الصورة = تحميل -->
+          <a href="https://drive.google.com/uc?export=download&id=1TmCSOY-mGknb5Q-bxW0Wej74lZv_M_Fa" target="_blank">
             <img src="img/NOVP.avif" alt="No Vision Pumpkin NOVP" loading="lazy" />
           </a>
 
@@ -50,16 +53,21 @@
             <h2>No Vision Pumpkin (NOVP)</h2>
             <p>Removes pumpkin vision overlay for a cleaner view.</p>
 
-            <a class="download-btn" href="Folder/file/NOVP.mcaddon" download>
+            <!-- زر التحميل -->
+            <a class="download-btn"
+               href="https://drive.google.com/uc?export=download&id=1TmCSOY-mGknb5Q-bxW0Wej74lZv_M_Fa"
+               target="_blank">
               Download
             </a>
+
           </div>
         </article>
 
       </section>
+
     </main>
 
-    <button id="scrollToTopBtn" title="Scroll to top" aria-label="Scroll to top">^</button>
+    <button id="scrollToTopBtn">^</button>
 
     <footer>
       <h2>© Copyright 2025 - 2030</h2>
